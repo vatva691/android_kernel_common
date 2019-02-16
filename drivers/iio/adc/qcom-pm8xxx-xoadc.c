@@ -225,7 +225,7 @@ struct xoadc_variant {
 	}
 
 /*
- * Taken from arch/arm/mach-msm/board-9615.c in the vendor tree:
+ * Taken from arch/arm/mach-qcom/board-9615.c in the vendor tree:
  * TODO: incomplete, needs testing.
  */
 static const struct xoadc_channel pm8018_xoadc_channels[] = {
@@ -242,7 +242,7 @@ static const struct xoadc_channel pm8018_xoadc_channels[] = {
 };
 
 /*
- * Taken from arch/arm/mach-msm/board-8930-pmic.c in the vendor tree:
+ * Taken from arch/arm/mach-qcom/board-8930-pmic.c in the vendor tree:
  * TODO: needs testing.
  */
 static const struct xoadc_channel pm8038_xoadc_channels[] = {
@@ -268,7 +268,7 @@ static const struct xoadc_channel pm8038_xoadc_channels[] = {
 
 /*
  * This was created by cross-referencing the vendor tree
- * arch/arm/mach-msm/board-msm8x60.c msm_adc_channels_data[]
+ * arch/arm/mach-qcom/board-msm8x60.c msm_adc_channels_data[]
  * with the "channel types" (first field) to find the right
  * configuration for these channels on an MSM8x60 i.e. PM8058
  * setup.
